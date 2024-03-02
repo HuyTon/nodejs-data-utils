@@ -1,0 +1,26 @@
+{
+    "name": "nodejs-data-utils",
+    "version": "1.0.0",
+    "description": "A collection of utility functions for processing and manipulating data.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index",
+        "test": "mocha test/**/*.js test/**/**/*.js --reporter spec"
+    },
+    "keywords": [],
+    "author": "Huy Ton That",
+    "license": "MIT",
+    "dependencies": {
+        "config": "^3.3.11",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "axios": "^1.6.7",
+        "chai": "^4.2.0",
+        "mocha": "^10.3.0",
+        "nodemon": "^2.0.20",
+        "sinon": "^17.0.1"
+    }
+}
